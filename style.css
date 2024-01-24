@@ -1,0 +1,72 @@
+.mission-frist {
+  background-color: #ffffff;
+}
+.mission-frist h1 {
+  text-align: center;
+  font-size: 3.3rem;
+  font-family: Arial;
+}
+.mission-frist p {
+  text-align: center;
+  font-size: 3.3rem;
+  font-family: Helvetica;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding-top: 2rem;
+}
+.mission-frist button {
+  width: 15rem;
+  height: 6rem;
+  margin-left: 45rem;
+  border-radius: 1px;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  color: #ffffff;
+  background-color: #007dff;
+  border-color: #ffffff;
+}
+.mission-second {
+  margin-top: 10rem;
+}
+.mission-second img {
+  width: 100%;
+  height: 48rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.mission-thrid {
+  display: flex;
+  justify-content: space-around;
+  background-color: #007dff;
+  color: #ffffff;
+  margin-top: -1rem;
+  padding-top: 3rem;
+}
+.mission-thrid-logo-symbole img {
+  height: 9rem;
+  width: 14rem;
+}
+.mission-thrid-logo-page {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -1rem;
+}
+.mission-thrid-logo-page img {
+  height: 2rem;
+  width: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+.mission-thrid-navigation {
+  line-height: 3rem;
+  text-align: center;
+  list-style: none;
+  font-family: Helvetica;
+}
+.mission-thrid-contact {
+  text-align: center;
+  line-height: 3rem;
+  font-family: Helvetica;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */
