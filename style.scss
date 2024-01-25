@@ -1,6 +1,6 @@
 .mission{
     &-frist{
-        background-color:#ffffff;
+        background-color:$background-color-primary;
         h1{
             text-align: center;
             font-size: 3.3rem;
@@ -20,10 +20,11 @@
             margin-left: 45rem;
             border-radius: 1px;
             font-size: 1.5rem;
+            font-weight: 600;
             border-radius: 1rem;
-            color: #ffffff;
-            background-color: #007dff;
-            border-color: #ffffff;
+            color:$background-color-primary ;
+            background-color:$background-color-second;
+            border-color:transparent;
         }
          
     }
@@ -35,14 +36,18 @@
             object-fit: cover;
         }
     }
-    &-thrid{
+   &-thrid{
+    background-color: $background-color-second;
+    margin-top: -1rem;
+    padding-top: 2rem;
+    color: $background-color-primary;
+    font-family:Helvetica;
+    &-terms{
         display: flex;
         justify-content: space-around;
-        background-color: #007dff;
-        color: #ffffff;
-        margin-top: -1rem;
-        padding-top: 3rem;
         &-logo{
+            margin-left: 15rem;
+            margin-top: 8rem;
             &-symbole{
                 img{
                     height: 9rem;
@@ -50,30 +55,79 @@
                 }
             }
             &-page{
-                background-color: #ffffff;
+                background-color: $background-color-primary;
                 display: flex;
                 justify-content: space-around;
                 margin-top: -1rem;
+                padding-top: 3rem;
+                padding-bottom: 2rem;
                 img{
                     height: 2rem;
                     width: 2rem;
-                    padding-top: 3rem;
-                    padding-bottom: 1.5rem;
                 }
             }
-        }  
+        }
         &-navigation{
-            line-height: 3rem;
-            text-align: center;
-            list-style: none;
-            font-family: Helvetica;
+            a{
+                flex-direction: column;
+                text-align: center;
+                line-height: 3rem;
+                color:$background-color-primary;
+                text-decoration: none;
+            }
         }
         &-contact{
+            letter-spacing: 1px;
             text-align: center;
-            line-height: 3rem;
-            font-family: Helvetica;
-            flex-direction: column;
+            line-height: 2rem;
+            margin-right: 3rem;
+            input{
+                height: 2.5rem;
+                width: 21rem;
+                text-align: center;
+                border-color: transparent;
+                font-size: 1rem;
+                background-color:$background-color-for-input-secondary ;
+            }
+            button{
+                height: 3rem;
+                width: 12rem;
+                border-radius: 1rem;
+                background-color:$background-color-primary;
+                color:$background-color-second ;
+                border-color: transparent;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+            &-name{
+                margin-bottom: 1rem;
+            }
+            &-email{
+                margin-bottom: 1rem;
+            }
+            &-number{
+                margin-bottom: 1rem;
+            }
+            &-message{
+                margin-bottom: 1rem;
+                input{
+                    height: 6rem;
+                    width: 21rem;
+                    text-align: start; 
+                }
+                
+            }
         }
+            
+    
     }
+    &-policy{
+        display: flex;
+        gap: 4rem;
+        margin-left: 5rem;
+    }
+   }
+   
 }
+   
    

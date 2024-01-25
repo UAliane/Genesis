@@ -20,10 +20,11 @@
   margin-left: 45rem;
   border-radius: 1px;
   font-size: 1.5rem;
+  font-weight: 600;
   border-radius: 1rem;
   color: #ffffff;
   background-color: #007dff;
-  border-color: #ffffff;
+  border-color: transparent;
 }
 .mission-second {
   margin-top: 10rem;
@@ -35,38 +36,86 @@
      object-fit: cover;
 }
 .mission-thrid {
+  background-color: #007dff;
+  margin-top: -1rem;
+  padding-top: 2rem;
+  color: #ffffff;
+  font-family: Helvetica;
+}
+.mission-thrid-terms {
   display: flex;
   justify-content: space-around;
-  background-color: #007dff;
-  color: #ffffff;
-  margin-top: -1rem;
-  padding-top: 3rem;
 }
-.mission-thrid-logo-symbole img {
+.mission-thrid-terms-logo {
+  margin-left: 15rem;
+  margin-top: 8rem;
+}
+.mission-thrid-terms-logo-symbole img {
   height: 9rem;
   width: 14rem;
 }
-.mission-thrid-logo-page {
+.mission-thrid-terms-logo-page {
   background-color: #ffffff;
   display: flex;
   justify-content: space-around;
   margin-top: -1rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
-.mission-thrid-logo-page img {
+.mission-thrid-terms-logo-page img {
   height: 2rem;
   width: 2rem;
-  padding-top: 3rem;
-  padding-bottom: 1.5rem;
 }
-.mission-thrid-navigation {
-  line-height: 3rem;
-  text-align: center;
-  list-style: none;
-  font-family: Helvetica;
-}
-.mission-thrid-contact {
-  text-align: center;
-  line-height: 3rem;
-  font-family: Helvetica;
+.mission-thrid-terms-navigation a {
   flex-direction: column;
+  text-align: center;
+  line-height: 3rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+.mission-thrid-terms-contact {
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 2rem;
+  margin-right: 3rem;
+}
+.mission-thrid-terms-contact input {
+  height: 2.5rem;
+  width: 21rem;
+  text-align: center;
+  border-color: transparent;
+  font-size: 1rem;
+  background-color: #d9d9d9;
+}
+.mission-thrid-terms-contact button {
+  height: 3rem;
+  width: 12rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  color: #007dff;
+  border-color: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.mission-thrid-terms-contact-name {
+  margin-bottom: 1rem;
+}
+.mission-thrid-terms-contact-email {
+  margin-bottom: 1rem;
+}
+.mission-thrid-terms-contact-number {
+  margin-bottom: 1rem;
+}
+.mission-thrid-terms-contact-message {
+  margin-bottom: 1rem;
+}
+.mission-thrid-terms-contact-message input {
+  height: 6rem;
+  width: 21rem;
+  text-align: start;
+}
+.mission-thrid-policy {
+  display: flex;
+  gap: 4rem;
+  margin-left: 5rem;
 }/*# sourceMappingURL=style.css.map */
