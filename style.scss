@@ -1,133 +1,161 @@
-.mission{
-    &-frist{
-        background-color:$background-color-primary;
-        h1{
-            text-align: center;
-            font-size: 3.3rem;
-            font-family: Arial;
-        }
-        p{
-            text-align: center;
-            font-size: 3.3rem;
-            font-family:  Helvetica;
-            font-weight: 100;
-            letter-spacing: 1px;
-            padding-top: 2rem;
-        }
-        button{
-            width: 15rem;
-            height: 6rem;
-            margin-left: 45rem;
-            border-radius: 1px;
-            font-size: 1.5rem;
-            font-weight: 600;
-            border-radius: 1rem;
-            color:$background-color-primary ;
-            background-color:$background-color-second;
-            border-color:transparent;
-        }
-         
-    }
-    &-second{
-        margin-top: 10rem;
-        img{
-            width:100%;
-            height: 48rem;
-            object-fit: cover;
-        }
-    }
-   &-thrid{
-    background-color: $background-color-second;
-    margin-top: -1rem;
-    padding-top: 2rem;
-    color: $background-color-primary;
-    font-family:Helvetica;
-    &-terms{
+@import './utils/variables';
+@import './utils/functions';
+@import './utils/mixins';
+.beginning{
+    &__navbar{
         display: flex;
         justify-content: space-around;
-        &-logo{
-            margin-left: 15rem;
-            margin-top: 8rem;
-            &-symbole{
-                img{
-                    height: 9rem;
-                    width: 14rem;
-                }
-            }
-            &-page{
-                background-color: $background-color-primary;
-                display: flex;
-                justify-content: space-around;
-                margin-top: -1rem;
-                padding-top: 3rem;
-                padding-bottom: 2rem;
-                img{
-                    height: 2rem;
-                    width: 2rem;
-                }
-            }
+        margin-top: 2rem;
+        background-color: $background-color-primary;
+        img{
+            height: 7rem;
+            width: 9rem;
+            margin-left: 5rem;
         }
-        &-navigation{
-            a{
-                flex-direction: column;
-                text-align: center;
-                line-height: 3rem;
-                color:$background-color-primary;
-                text-decoration: none;
-            }
-        }
-        &-contact{
-            letter-spacing: 1px;
-            text-align: center;
-            line-height: 2rem;
+        ul{
+            font-family: Helvetica;
+            font-size: 25px;
+            margin-left: 30rem;
+          a{
+            text-decoration: none;
             margin-right: 3rem;
-            input{
-                height: 2.5rem;
-                width: 21rem;
+            color:$text-color-primary;
+            font-weight: 300;
+          }  
+        }
+    }
+    &__mission{
+        text-align: center;
+        background-color: $background-color-primary ;
+        margin-top: -0.5rem;
+        h1{
+            font-size: 3rem;
+            font-family: Helvetica;
+        }
+        p{
+            font-family:  Helvetica;
+            font-size: 3rem;
+            letter-spacing: 1px;
+            font-weight: 100;
+            margin-top: 4rem;
+        }
+        img{
+           width: 100%;
+           height: 48rem;
+           padding-top: 8rem;
+           object-fit: cover;
+
+        }
+    }
+    &__charpter{
+        background-color: $background-color-tertiairy;
+        &__begins{
+            display: flex;
+            justify-content: space-between;
+            &__text{
                 text-align: center;
-                border-color: transparent;
-                font-size: 1rem;
-                background-color:$background-color-for-input-secondary ;
-            }
-            button{
-                height: 3rem;
-                width: 12rem;
-                border-radius: 1rem;
-                background-color:$background-color-primary;
-                color:$background-color-second ;
-                border-color: transparent;
-                font-size: 1rem;
-                font-weight: 600;
-            }
-            &-name{
-                margin-bottom: 1rem;
-            }
-            &-email{
-                margin-bottom: 1rem;
-            }
-            &-number{
-                margin-bottom: 1rem;
-            }
-            &-message{
-                margin-bottom: 1rem;
-                input{
-                    height: 6rem;
-                    width: 21rem;
-                    text-align: start; 
+                font-family: Helvetica;
+                margin-top: 8rem;
+                width: 50%;
+                h1{
+                    font-size: 3rem;
                 }
-                
+                p{
+                    margin-top: 5rem;
+                    font-size: 2rem;
+                }
+            }
+            img{
+                height:40rem ;
+                width: 50%;
+                object-fit: cover;
             }
         }
+        &__listening{
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 50%;
+                height: 40rem;
+                object-fit: cover;
+            }
+            &__beings{
+                text-align: center;
+                font-family: Helvetica;
+                width: 50%;
+                margin-bottom: 18rem;
+                h1{
+                    font-size: 3rem;
+                    margin-top: 8rem;
+                }
+                p{
+                    font-size: 2rem;
+                    
+                }
+            }
+           
+        }
+    }
+    &__healing{
+        padding-top: 28rem;
+        text-align: center;
+        background-color:$background-color-primary;
+        img{
+            height:10rem ;
+            width: 14rem;
+            object-fit: cover;
+            padding-top: 3rem;
             
-    
+        }
+        &__reconciliation{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5rem;
+            &__phrases{
+                font-family:  Helvetica;
+                text-align: center;
+                width: 50%;
+                h1{
+                    font-size: 3rem;
+                }
+                p{
+                    font-size: 2rem;
+                } 
+            }
+            img{
+               width: 50%;
+               height: 40rem;
+               object-fit: cover;
+            }
+        }
+        &__resilience{
+            margin-top: 5rem;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 25rem;
+            img{
+                height: 53rem ;
+                width: 62%;
+                margin-top: 6rem;
+            }
+            &__united{
+                text-align: center;
+                font-family: Helvetica;
+                width: 38%;
+                
+                h1{
+                    font-size: 3rem;
+                    padding-bottom: 3rem;
+                }
+                p{
+                    font-size: 2rem;
+                    
+                }
+            }
+        }
+        
     }
-    &-policy{
-        display: flex;
-        gap: 4rem;
-        margin-left: 5rem;
-    }
-   }
-   
 }
+
    
    

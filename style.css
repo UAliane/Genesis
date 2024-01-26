@@ -1,121 +1,190 @@
-.mission-frist {
-  background-color: #ffffff;
+/*============================================== Background =============================================*/
+/*============================================== Cover Filter =============================================*/
+/*============================================== Input Background =============================================*/
+/*============================================== Error color =============================================*/
+/*=========================================== Success color ==============================================*/
+/*================================================ Navbar ===============================================*/
+/*============================================== Text Color ==============================================*/
+/*================================================ Button ================================================*/
+/*============================================== input Color ==============================================*/
+/*================================================ Card ================================================*/
+/*============================================== Form ================================================*/
+/*============================================== Link ================================================*/
+/*================================================= Shadow ================================================*/
+/*================================================= Border ================================================*/
+/*============================================= On hover ============================================*/
+/* Navbar & Footer */
+/* Input */
+/* Button */
+/*============================================= Active ============================================*/
+/* Input */
+/*================================================= li ================================================*/
+/*================================================= menu ================================================*/
+/*================================================= search ================================================*/
+/*============================================== Price color =============================================*/
+/*============================================ Table Background ===========================================*/
+/*============================================ Discount color ===========================================*/
+/*============================================ Processing color ===========================================*/
+/*============================================ Cubic Bezier ===========================================*/
+h1 a {
+  background-color: #FFFFFF;
 }
-.mission-frist h1 {
-  text-align: center;
-  font-size: 3.3rem;
-  font-family: Arial;
+
+/* @include mobile() {
+    .title{
+        background-color: $background-color-primary;
+        display: none;
+    }
+}  */
+/*================================================= sidebar ================================================*/
+.beginning__navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  background-color: #FFFFFF;
 }
-.mission-frist p {
-  text-align: center;
-  font-size: 3.3rem;
+.beginning__navbar img {
+  height: 7rem;
+  width: 9rem;
+  margin-left: 5rem;
+}
+.beginning__navbar ul {
   font-family: Helvetica;
-  font-weight: 100;
+  font-size: 25px;
+  margin-left: 30rem;
+}
+.beginning__navbar ul a {
+  text-decoration: none;
+  margin-right: 3rem;
+  color: #000000;
+  font-weight: 300;
+}
+.beginning__mission {
+  text-align: center;
+  background-color: #FFFFFF;
+  margin-top: -0.5rem;
+}
+.beginning__mission h1 {
+  font-size: 3rem;
+  font-family: Helvetica;
+}
+.beginning__mission p {
+  font-family: Helvetica;
+  font-size: 3rem;
   letter-spacing: 1px;
-  padding-top: 2rem;
+  font-weight: 100;
+  margin-top: 4rem;
 }
-.mission-frist button {
-  width: 15rem;
-  height: 6rem;
-  margin-left: 45rem;
-  border-radius: 1px;
-  font-size: 1.5rem;
-  font-weight: 600;
-  border-radius: 1rem;
-  color: #ffffff;
-  background-color: #007dff;
-  border-color: transparent;
-}
-.mission-second {
-  margin-top: 10rem;
-}
-.mission-second img {
+.beginning__mission img {
   width: 100%;
   height: 48rem;
+  padding-top: 8rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.mission-thrid {
-  background-color: #007dff;
-  margin-top: -1rem;
-  padding-top: 2rem;
-  color: #ffffff;
-  font-family: Helvetica;
+.beginning__charpter {
+  background-color: #D09C32;
 }
-.mission-thrid-terms {
+.beginning__charpter__begins {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.mission-thrid-terms-logo {
-  margin-left: 15rem;
+.beginning__charpter__begins__text {
+  text-align: center;
+  font-family: Helvetica;
+  margin-top: 8rem;
+  width: 50%;
+}
+.beginning__charpter__begins__text h1 {
+  font-size: 3rem;
+}
+.beginning__charpter__begins__text p {
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+.beginning__charpter__begins img {
+  height: 40rem;
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.beginning__charpter__listening {
+  display: flex;
+  justify-content: space-between;
+}
+.beginning__charpter__listening img {
+  width: 50%;
+  height: 40rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.beginning__charpter__listening__beings {
+  text-align: center;
+  font-family: Helvetica;
+  width: 50%;
+  margin-bottom: 18rem;
+}
+.beginning__charpter__listening__beings h1 {
+  font-size: 3rem;
   margin-top: 8rem;
 }
-.mission-thrid-terms-logo-symbole img {
-  height: 9rem;
+.beginning__charpter__listening__beings p {
+  font-size: 2rem;
+}
+.beginning__healing {
+  padding-top: 28rem;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+.beginning__healing img {
+  height: 10rem;
   width: 14rem;
-}
-.mission-thrid-terms-logo-page {
-  background-color: #ffffff;
-  display: flex;
-  justify-content: space-around;
-  margin-top: -1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
   padding-top: 3rem;
-  padding-bottom: 2rem;
 }
-.mission-thrid-terms-logo-page img {
-  height: 2rem;
-  width: 2rem;
-}
-.mission-thrid-terms-navigation a {
-  flex-direction: column;
-  text-align: center;
-  line-height: 3rem;
-  color: #ffffff;
-  text-decoration: none;
-}
-.mission-thrid-terms-contact {
-  letter-spacing: 1px;
-  text-align: center;
-  line-height: 2rem;
-  margin-right: 3rem;
-}
-.mission-thrid-terms-contact input {
-  height: 2.5rem;
-  width: 21rem;
-  text-align: center;
-  border-color: transparent;
-  font-size: 1rem;
-  background-color: #d9d9d9;
-}
-.mission-thrid-terms-contact button {
-  height: 3rem;
-  width: 12rem;
-  border-radius: 1rem;
-  background-color: #ffffff;
-  color: #007dff;
-  border-color: transparent;
-  font-size: 1rem;
-  font-weight: 600;
-}
-.mission-thrid-terms-contact-name {
-  margin-bottom: 1rem;
-}
-.mission-thrid-terms-contact-email {
-  margin-bottom: 1rem;
-}
-.mission-thrid-terms-contact-number {
-  margin-bottom: 1rem;
-}
-.mission-thrid-terms-contact-message {
-  margin-bottom: 1rem;
-}
-.mission-thrid-terms-contact-message input {
-  height: 6rem;
-  width: 21rem;
-  text-align: start;
-}
-.mission-thrid-policy {
+.beginning__healing__reconciliation {
   display: flex;
-  gap: 4rem;
-  margin-left: 5rem;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.beginning__healing__reconciliation__phrases {
+  font-family: Helvetica;
+  text-align: center;
+  width: 50%;
+}
+.beginning__healing__reconciliation__phrases h1 {
+  font-size: 3rem;
+}
+.beginning__healing__reconciliation__phrases p {
+  font-size: 2rem;
+}
+.beginning__healing__reconciliation img {
+  width: 50%;
+  height: 40rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.beginning__healing__resilience {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25rem;
+}
+.beginning__healing__resilience img {
+  height: 53rem;
+  width: 62%;
+  margin-top: 6rem;
+}
+.beginning__healing__resilience__united {
+  text-align: center;
+  font-family: Helvetica;
+  width: 38%;
+}
+.beginning__healing__resilience__united h1 {
+  font-size: 3rem;
+  padding-bottom: 3rem;
+}
+.beginning__healing__resilience__united p {
+  font-size: 2rem;
 }/*# sourceMappingURL=style.css.map */
