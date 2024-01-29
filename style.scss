@@ -1,161 +1,99 @@
 @import './utils/variables';
 @import './utils/functions';
 @import './utils/mixins';
-.beginning{
-    &__navbar{
+.team{
+    &__home{
         display: flex;
         justify-content: space-around;
-        margin-top: 2rem;
+        background-color: pink;
+        padding-top: 3rem;
         background-color: $background-color-primary;
         img{
             height: 7rem;
-            width: 9rem;
+            width:9rem ;
             margin-left: 5rem;
         }
         ul{
             font-family: Helvetica;
             font-size: 25px;
             margin-left: 30rem;
-          a{
+        
+        }
+        a{
             text-decoration: none;
             margin-right: 3rem;
             color:$text-color-primary;
             font-weight: 300;
-          }  
+            
         }
     }
-    &__mission{
+    &__group{
         text-align: center;
-        background-color: $background-color-primary ;
-        margin-top: -0.5rem;
+        background-color: pink;
+        margin-top: -2rem;
+        padding-bottom: 7rem;
+        background-color: $background-color-primary;
         h1{
             font-size: 3rem;
-            font-family: Helvetica;
+            font-family: Helvetica; 
+            padding-top: 3rem;
         }
         p{
             font-family:  Helvetica;
             font-size: 3rem;
             letter-spacing: 1px;
             font-weight: 100;
-            margin-top: 4rem;
+            margin-top: 6rem;
+        }
+    }
+    &__workers{
+        background-color:$background-color-second ;
+        color: $text-color-second;
+        font-family: Helvetica;
+        margin-top: -5rem;
+        &__departement{
+            display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 5rem;
+        padding-top: 13rem;
         }
         img{
-           width: 100%;
-           height: 48rem;
-           padding-top: 8rem;
+           height: 400px; 
+           width: 300px;
            object-fit: cover;
-
+        }
+        h1{
+          text-align: center;
+          margin-bottom: 4rem;
+          font-size: 2.5rem;
+        }
+        p{
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 10rem;
         }
     }
-    &__charpter{
-        background-color: $background-color-tertiairy;
-        &__begins{
-            display: flex;
-            justify-content: space-between;
-            &__text{
-                text-align: center;
-                font-family: Helvetica;
-                margin-top: 8rem;
-                width: 50%;
-                h1{
-                    font-size: 3rem;
-                }
-                p{
-                    margin-top: 5rem;
-                    font-size: 2rem;
-                }
-            }
+    &__pictures{
+        background-color:$background-color-primary ;
+        margin-top: -5rem;
+        &__sign{
             img{
-                height:40rem ;
-                width: 50%;
+                width: 18rem;
+                height: 13rem;
+                object-fit: cover;
+                padding-left: 40rem;
+                padding-bottom: 15rem;
+            }
+        }
+        &__wall{
+            img{
+                width: 100%;
+                height: 85rem;
                 object-fit: cover;
             }
         }
-        &__listening{
-            display: flex;
-            justify-content: space-between;
-            img{
-                width: 50%;
-                height: 40rem;
-                object-fit: cover;
-            }
-            &__beings{
-                text-align: center;
-                font-family: Helvetica;
-                width: 50%;
-                margin-bottom: 18rem;
-                h1{
-                    font-size: 3rem;
-                    margin-top: 8rem;
-                }
-                p{
-                    font-size: 2rem;
-                    
-                }
-            }
-           
-        }
-    }
-    &__healing{
-        padding-top: 28rem;
-        text-align: center;
-        background-color:$background-color-primary;
-        img{
-            height:10rem ;
-            width: 14rem;
-            object-fit: cover;
-            padding-top: 3rem;
-            
-        }
-        &__reconciliation{
-            display: flex;
-            justify-content: space-between;
-            margin-top: 5rem;
-            &__phrases{
-                font-family:  Helvetica;
-                text-align: center;
-                width: 50%;
-                h1{
-                    font-size: 3rem;
-                }
-                p{
-                    font-size: 2rem;
-                } 
-            }
-            img{
-               width: 50%;
-               height: 40rem;
-               object-fit: cover;
-            }
-        }
-        &__resilience{
-            margin-top: 5rem;
-            display: flex;
-            justify-content: space-between;
-            padding-bottom: 25rem;
-            img{
-                height: 53rem ;
-                width: 62%;
-                margin-top: 6rem;
-            }
-            &__united{
-                text-align: center;
-                font-family: Helvetica;
-                width: 38%;
-                
-                h1{
-                    font-size: 3rem;
-                    padding-bottom: 3rem;
-                }
-                p{
-                    font-size: 2rem;
-                    
-                }
-            }
-        }
-        
     }
 }
-
-   
    

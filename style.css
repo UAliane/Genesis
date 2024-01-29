@@ -37,154 +37,93 @@ h1 a {
     }
 }  */
 /*================================================= sidebar ================================================*/
-.beginning__navbar {
+.team__home {
   display: flex;
   justify-content: space-around;
-  margin-top: 2rem;
+  background-color: pink;
+  padding-top: 3rem;
   background-color: #FFFFFF;
 }
-.beginning__navbar img {
+.team__home img {
   height: 7rem;
   width: 9rem;
   margin-left: 5rem;
 }
-.beginning__navbar ul {
+.team__home ul {
   font-family: Helvetica;
   font-size: 25px;
   margin-left: 30rem;
 }
-.beginning__navbar ul a {
+.team__home a {
   text-decoration: none;
   margin-right: 3rem;
   color: #000000;
   font-weight: 300;
 }
-.beginning__mission {
+.team__group {
   text-align: center;
+  background-color: pink;
+  margin-top: -2rem;
+  padding-bottom: 7rem;
   background-color: #FFFFFF;
-  margin-top: -0.5rem;
 }
-.beginning__mission h1 {
+.team__group h1 {
   font-size: 3rem;
   font-family: Helvetica;
+  padding-top: 3rem;
 }
-.beginning__mission p {
+.team__group p {
   font-family: Helvetica;
   font-size: 3rem;
   letter-spacing: 1px;
   font-weight: 100;
-  margin-top: 4rem;
-}
-.beginning__mission img {
-  width: 100%;
-  height: 48rem;
-  padding-top: 8rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.beginning__charpter {
-  background-color: #D09C32;
-}
-.beginning__charpter__begins {
-  display: flex;
-  justify-content: space-between;
-}
-.beginning__charpter__begins__text {
-  text-align: center;
-  font-family: Helvetica;
-  margin-top: 8rem;
-  width: 50%;
-}
-.beginning__charpter__begins__text h1 {
-  font-size: 3rem;
-}
-.beginning__charpter__begins__text p {
-  margin-top: 5rem;
-  font-size: 2rem;
-}
-.beginning__charpter__begins img {
-  height: 40rem;
-  width: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.beginning__charpter__listening {
-  display: flex;
-  justify-content: space-between;
-}
-.beginning__charpter__listening img {
-  width: 50%;
-  height: 40rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.beginning__charpter__listening__beings {
-  text-align: center;
-  font-family: Helvetica;
-  width: 50%;
-  margin-bottom: 18rem;
-}
-.beginning__charpter__listening__beings h1 {
-  font-size: 3rem;
-  margin-top: 8rem;
-}
-.beginning__charpter__listening__beings p {
-  font-size: 2rem;
-}
-.beginning__healing {
-  padding-top: 28rem;
-  text-align: center;
-  background-color: #FFFFFF;
-}
-.beginning__healing img {
-  height: 10rem;
-  width: 14rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-  padding-top: 3rem;
-}
-.beginning__healing__reconciliation {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 5rem;
-}
-.beginning__healing__reconciliation__phrases {
-  font-family: Helvetica;
-  text-align: center;
-  width: 50%;
-}
-.beginning__healing__reconciliation__phrases h1 {
-  font-size: 3rem;
-}
-.beginning__healing__reconciliation__phrases p {
-  font-size: 2rem;
-}
-.beginning__healing__reconciliation img {
-  width: 50%;
-  height: 40rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.beginning__healing__resilience {
-  margin-top: 5rem;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 25rem;
-}
-.beginning__healing__resilience img {
-  height: 53rem;
-  width: 62%;
   margin-top: 6rem;
 }
-.beginning__healing__resilience__united {
-  text-align: center;
+.team__workers {
+  background-color: #007DFF;
+  color: #FFFFFF;
   font-family: Helvetica;
-  width: 38%;
+  margin-top: -5rem;
 }
-.beginning__healing__resilience__united h1 {
-  font-size: 3rem;
-  padding-bottom: 3rem;
+.team__workers__departement {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5rem;
+  padding-top: 13rem;
 }
-.beginning__healing__resilience__united p {
-  font-size: 2rem;
+.team__workers img {
+  height: 400px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.team__workers h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
+}
+.team__workers p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 10rem;
+}
+.team__pictures {
+  background-color: #FFFFFF;
+  margin-top: -5rem;
+}
+.team__pictures__sign img {
+  width: 18rem;
+  height: 13rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-left: 40rem;
+  padding-bottom: 15rem;
+}
+.team__pictures__wall img {
+  width: 100%;
+  height: 85rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
