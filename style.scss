@@ -1,143 +1,64 @@
 @import './utils/variables';
 @import './utils/functions';
 @import './utils/mixins';
-.common{
-    &__depression{
-        background-color: $background-color-primary;
-        font-family: Helvetica;
-        #depression{
-            text-align: center;
-            font-size: 3rem;
-            letter-spacing: 1px;
-        }
-        p{
-            text-align: center;
-            font-size: 3rem;
-            font-weight: 100;
+.health{
+    font-family: Helvetica;
+    background-color: $background-color-tertiairy;
+    #seeking{
+        text-align: center;
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 3rem;
+        font-weight: 100;
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: 100;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+
+    }
+    h4{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 100;
+
+    }
+    &__holistic{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 6rem;
+        img{
+            height: 62rem;
+            width:50% ;
             padding-top: 2rem;
+            object-fit: cover;
         }
-        &__help{
-            display: flex;
-            justify-content: space-between;
-            img{
-              width:50% ;
-              height:50rem ;
-              object-fit: cover;
-              padding-top: 5rem;
-            }
-            &__writtern{
-                p{
-                    font-size: 1.9rem;
-                }
-            }
-        }
-        &__pragraph{
+        &__plan{
+           h1{
+            font-size: 2rem;
+            padding-left: 3rem;
+           }
            p{
-              font-size: 1.9rem;
+            font-size: 2rem;
+            font-weight: 100;
+            padding-left: 3rem;
            }
         }
     }
-    &__anxiete{
-        font-family: Helvetica;
-        background-color:$background-color-second ;
-        color: $text-color-second;
-        margin-top: -2rem;
-        #anxiety{
+    &__transform{
+        #path{
             text-align: center;
-            font-size: 3rem;
-            letter-spacing: 1px;
-        }
-        h2{
-           text-align: center; 
-           font-size: 3rem;
-           font-weight: 100;  
-        }
-        h4{
-          text-align: center;
-          font-size: 2rem;
-          font-weight: 100;
-        }
-        &__companents{
-            display: flex;
-            justify-content: space-between;
-            img{
-                height:80rem ;
-                width: 55rem;
-                object-fit: cover;
-                padding-top:6rem;
-            }
-          h3{
             font-size: 2rem;
-            padding-left: 3rem;
-            padding-top: 4rem;
-          }
-          p{
-            font-size: 1.9rem;
             font-weight: 100;
-            padding-left: 3rem;
-          }
+            padding-top: 8rem;
         }
-        &__phobia{
-            p{
-                text-align: center;
-                font-size: 2rem;
-                font-weight: 100;
-                padding-top: 8rem;
-            }
+        img{
+            width: 100%;
+            height:60rem ;
+            object-fit: cover;
+            padding-top: 8rem;
         }
     }
-    &__negative{
-        font-family: Helvetica;
-        #shadow{
-            text-align: center;
-            font-size: 3rem;
-        }
-        h2{
-            text-align: center;
-            font-size: 3rem;
-            font-weight: 100;
-        }
-        h4{
-            text-align: center;
-            font-size: 1.9rem;
-            font-weight: 100;
-        }
-        &__positive{
-            display: flex;
-            justify-content:space-between;
-            img{
-                 width:50% ;
-                 height:60rem ;
-                 padding-top: 8rem;
-                 object-fit: cover;
-            }
-            &__thinking{
-                font-size: 2rem;
-                h3{
-                    margin-top: 2rem;
-                }
-                p{
-                    font-weight: 100;
-                }
-            }  
-                
-        }
-        &__join{
-            h1{
-                text-align: center;
-                font-size: 2rem;
-            }
-            p{
-                text-align: center;
-                font-size: 2rem;
-                font-weight: 100;
-            }
-            img{
-                width: 100%;
-                height: 60rem;
-                object-fit: cover;
-            }
-        }
-       
-    }
+    
 }

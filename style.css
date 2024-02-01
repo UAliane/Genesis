@@ -37,135 +37,59 @@ h1 a {
     }
 }  */
 /*================================================= sidebar ================================================*/
-.common__depression {
-  background-color: #FFFFFF;
+.health {
   font-family: Helvetica;
+  background-color: #D09C32;
 }
-.common__depression #depression {
+.health #seeking {
   text-align: center;
   font-size: 3rem;
-  letter-spacing: 1px;
 }
-.common__depression p {
-  text-align: center;
+.health h2 {
   font-size: 3rem;
   font-weight: 100;
-  padding-top: 2rem;
-}
-.common__depression__help {
-  display: flex;
-  justify-content: space-between;
-}
-.common__depression__help img {
-  width: 50%;
-  height: 50rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-  padding-top: 5rem;
-}
-.common__depression__help__writtern p {
-  font-size: 1.9rem;
-}
-.common__depression__pragraph p {
-  font-size: 1.9rem;
-}
-.common__anxiete {
-  font-family: Helvetica;
-  background-color: #007DFF;
-  color: #FFFFFF;
-  margin-top: -2rem;
-}
-.common__anxiete #anxiety {
   text-align: center;
-  font-size: 3rem;
   letter-spacing: 1px;
-}
-.common__anxiete h2 {
-  text-align: center;
-  font-size: 3rem;
   font-weight: 100;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
-.common__anxiete h4 {
+.health h4 {
   text-align: center;
   font-size: 2rem;
   font-weight: 100;
 }
-.common__anxiete__companents {
+.health__holistic {
   display: flex;
   justify-content: space-between;
-}
-.common__anxiete__companents img {
-  height: 80rem;
-  width: 55rem;
-  -o-object-fit: cover;
-     object-fit: cover;
   padding-top: 6rem;
 }
-.common__anxiete__companents h3 {
-  font-size: 2rem;
-  padding-left: 3rem;
-  padding-top: 4rem;
-}
-.common__anxiete__companents p {
-  font-size: 1.9rem;
-  font-weight: 100;
-  padding-left: 3rem;
-}
-.common__anxiete__phobia p {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 100;
-  padding-top: 8rem;
-}
-.common__negative {
-  font-family: Helvetica;
-}
-.common__negative #shadow {
-  text-align: center;
-  font-size: 3rem;
-}
-.common__negative h2 {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 100;
-}
-.common__negative h4 {
-  text-align: center;
-  font-size: 1.9rem;
-  font-weight: 100;
-}
-.common__negative__positive {
-  display: flex;
-  justify-content: space-between;
-}
-.common__negative__positive img {
+.health__holistic img {
+  height: 62rem;
   width: 50%;
-  height: 60rem;
-  padding-top: 8rem;
+  padding-top: 2rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.common__negative__positive__thinking {
+.health__holistic__plan h1 {
   font-size: 2rem;
+  padding-left: 3rem;
 }
-.common__negative__positive__thinking h3 {
-  margin-top: 2rem;
-}
-.common__negative__positive__thinking p {
+.health__holistic__plan p {
+  font-size: 2rem;
   font-weight: 100;
+  padding-left: 3rem;
 }
-.common__negative__join h1 {
-  text-align: center;
-  font-size: 2rem;
-}
-.common__negative__join p {
+.health__transform #path {
   text-align: center;
   font-size: 2rem;
   font-weight: 100;
+  padding-top: 8rem;
 }
-.common__negative__join img {
+.health__transform img {
   width: 100%;
   height: 60rem;
   -o-object-fit: cover;
      object-fit: cover;
+  padding-top: 8rem;
 }/*# sourceMappingURL=style.css.map */
