@@ -1,99 +1,143 @@
 @import './utils/variables';
 @import './utils/functions';
 @import './utils/mixins';
-.team{
-    &__home{
-        display: flex;
-        justify-content: space-around;
-        background-color: pink;
-        padding-top: 3rem;
+.common{
+    &__depression{
         background-color: $background-color-primary;
-        img{
-            height: 7rem;
-            width:9rem ;
-            margin-left: 5rem;
-        }
-        ul{
-            font-family: Helvetica;
-            font-size: 25px;
-            margin-left: 30rem;
-        
-        }
-        a{
-            text-decoration: none;
-            margin-right: 3rem;
-            color:$text-color-primary;
-            font-weight: 300;
-            
-        }
-    }
-    &__group{
-        text-align: center;
-        background-color: pink;
-        margin-top: -2rem;
-        padding-bottom: 7rem;
-        background-color: $background-color-primary;
-        h1{
-            font-size: 3rem;
-            font-family: Helvetica; 
-            padding-top: 3rem;
-        }
-        p{
-            font-family:  Helvetica;
+        font-family: Helvetica;
+        #depression{
+            text-align: center;
             font-size: 3rem;
             letter-spacing: 1px;
-            font-weight: 100;
-            margin-top: 6rem;
-        }
-    }
-    &__workers{
-        background-color:$background-color-second ;
-        color: $text-color-second;
-        font-family: Helvetica;
-        margin-top: -5rem;
-        &__departement{
-            display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 5rem;
-        padding-top: 13rem;
-        }
-        img{
-           height: 400px; 
-           width: 300px;
-           object-fit: cover;
-        }
-        h1{
-          text-align: center;
-          margin-bottom: 4rem;
-          font-size: 2.5rem;
         }
         p{
             text-align: center;
-            font-size: 1.5rem;
-            margin-bottom: 10rem;
+            font-size: 3rem;
+            font-weight: 100;
+            padding-top: 2rem;
         }
-    }
-    &__pictures{
-        background-color:$background-color-primary ;
-        margin-top: -5rem;
-        &__sign{
+        &__help{
+            display: flex;
+            justify-content: space-between;
             img{
-                width: 18rem;
-                height: 13rem;
-                object-fit: cover;
-                padding-left: 40rem;
-                padding-bottom: 15rem;
+              width:50% ;
+              height:50rem ;
+              object-fit: cover;
+              padding-top: 5rem;
+            }
+            &__writtern{
+                p{
+                    font-size: 1.9rem;
+                }
             }
         }
-        &__wall{
+        &__pragraph{
+           p{
+              font-size: 1.9rem;
+           }
+        }
+    }
+    &__anxiete{
+        font-family: Helvetica;
+        background-color:$background-color-second ;
+        color: $text-color-second;
+        margin-top: -2rem;
+        #anxiety{
+            text-align: center;
+            font-size: 3rem;
+            letter-spacing: 1px;
+        }
+        h2{
+           text-align: center; 
+           font-size: 3rem;
+           font-weight: 100;  
+        }
+        h4{
+          text-align: center;
+          font-size: 2rem;
+          font-weight: 100;
+        }
+        &__companents{
+            display: flex;
+            justify-content: space-between;
+            img{
+                height:80rem ;
+                width: 55rem;
+                object-fit: cover;
+                padding-top:6rem;
+            }
+          h3{
+            font-size: 2rem;
+            padding-left: 3rem;
+            padding-top: 4rem;
+          }
+          p{
+            font-size: 1.9rem;
+            font-weight: 100;
+            padding-left: 3rem;
+          }
+        }
+        &__phobia{
+            p{
+                text-align: center;
+                font-size: 2rem;
+                font-weight: 100;
+                padding-top: 8rem;
+            }
+        }
+    }
+    &__negative{
+        font-family: Helvetica;
+        #shadow{
+            text-align: center;
+            font-size: 3rem;
+        }
+        h2{
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 100;
+        }
+        h4{
+            text-align: center;
+            font-size: 1.9rem;
+            font-weight: 100;
+        }
+        &__positive{
+            display: flex;
+            justify-content:space-between;
+            img{
+                 width:50% ;
+                 height:60rem ;
+                 padding-top: 8rem;
+                 object-fit: cover;
+            }
+            &__thinking{
+                font-size: 2rem;
+                h3{
+                    margin-top: 2rem;
+                }
+                p{
+                    font-weight: 100;
+                }
+            }  
+                
+        }
+        &__join{
+            h1{
+                text-align: center;
+                font-size: 2rem;
+            }
+            p{
+                text-align: center;
+                font-size: 2rem;
+                font-weight: 100;
+            }
             img{
                 width: 100%;
-                height: 85rem;
+                height: 60rem;
                 object-fit: cover;
             }
         }
+       
     }
 }
-   

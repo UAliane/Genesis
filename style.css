@@ -37,93 +37,135 @@ h1 a {
     }
 }  */
 /*================================================= sidebar ================================================*/
-.team__home {
-  display: flex;
-  justify-content: space-around;
-  background-color: pink;
-  padding-top: 3rem;
+.common__depression {
   background-color: #FFFFFF;
-}
-.team__home img {
-  height: 7rem;
-  width: 9rem;
-  margin-left: 5rem;
-}
-.team__home ul {
   font-family: Helvetica;
-  font-size: 25px;
-  margin-left: 30rem;
 }
-.team__home a {
-  text-decoration: none;
-  margin-right: 3rem;
-  color: #000000;
-  font-weight: 300;
-}
-.team__group {
+.common__depression #depression {
   text-align: center;
-  background-color: pink;
-  margin-top: -2rem;
-  padding-bottom: 7rem;
-  background-color: #FFFFFF;
-}
-.team__group h1 {
-  font-size: 3rem;
-  font-family: Helvetica;
-  padding-top: 3rem;
-}
-.team__group p {
-  font-family: Helvetica;
   font-size: 3rem;
   letter-spacing: 1px;
-  font-weight: 100;
-  margin-top: 6rem;
 }
-.team__workers {
+.common__depression p {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 100;
+  padding-top: 2rem;
+}
+.common__depression__help {
+  display: flex;
+  justify-content: space-between;
+}
+.common__depression__help img {
+  width: 50%;
+  height: 50rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-top: 5rem;
+}
+.common__depression__help__writtern p {
+  font-size: 1.9rem;
+}
+.common__depression__pragraph p {
+  font-size: 1.9rem;
+}
+.common__anxiete {
+  font-family: Helvetica;
   background-color: #007DFF;
   color: #FFFFFF;
-  font-family: Helvetica;
-  margin-top: -5rem;
+  margin-top: -2rem;
 }
-.team__workers__departement {
+.common__anxiete #anxiety {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+.common__anxiete h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 100;
+}
+.common__anxiete h4 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.common__anxiete__companents {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 5rem;
-  padding-top: 13rem;
+  justify-content: space-between;
 }
-.team__workers img {
-  height: 400px;
-  width: 300px;
+.common__anxiete__companents img {
+  height: 80rem;
+  width: 55rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-top: 6rem;
+}
+.common__anxiete__companents h3 {
+  font-size: 2rem;
+  padding-left: 3rem;
+  padding-top: 4rem;
+}
+.common__anxiete__companents p {
+  font-size: 1.9rem;
+  font-weight: 100;
+  padding-left: 3rem;
+}
+.common__anxiete__phobia p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
+  padding-top: 8rem;
+}
+.common__negative {
+  font-family: Helvetica;
+}
+.common__negative #shadow {
+  text-align: center;
+  font-size: 3rem;
+}
+.common__negative h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 100;
+}
+.common__negative h4 {
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: 100;
+}
+.common__negative__positive {
+  display: flex;
+  justify-content: space-between;
+}
+.common__negative__positive img {
+  width: 50%;
+  height: 60rem;
+  padding-top: 8rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.team__workers h1 {
+.common__negative__positive__thinking {
+  font-size: 2rem;
+}
+.common__negative__positive__thinking h3 {
+  margin-top: 2rem;
+}
+.common__negative__positive__thinking p {
+  font-weight: 100;
+}
+.common__negative__join h1 {
   text-align: center;
-  margin-bottom: 4rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
-.team__workers p {
+.common__negative__join p {
   text-align: center;
-  font-size: 1.5rem;
-  margin-bottom: 10rem;
+  font-size: 2rem;
+  font-weight: 100;
 }
-.team__pictures {
-  background-color: #FFFFFF;
-  margin-top: -5rem;
-}
-.team__pictures__sign img {
-  width: 18rem;
-  height: 13rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-  padding-left: 40rem;
-  padding-bottom: 15rem;
-}
-.team__pictures__wall img {
+.common__negative__join img {
   width: 100%;
-  height: 85rem;
+  height: 60rem;
   -o-object-fit: cover;
      object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
